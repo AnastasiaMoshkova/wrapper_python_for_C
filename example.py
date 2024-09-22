@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append(r'path_to_dir\wrapper_python_under_C\build\lib\Release')
+sys.path.append(r'path_to_dir\wrapper_python_for_C\build\lib\Release')
 import pywrapper as pw
 import numpy as np
 
