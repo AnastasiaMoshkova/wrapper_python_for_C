@@ -5,7 +5,7 @@
 2. cd build
 3. cmake path_to_dit/CMakeLists.txt
 4. build
-5. в директории D:\courses\wrapper_python_under_C\build\lib\Release появится pywrapper
+5. в директории D:\courses\wrapper_python_for_C\build\lib\Release появится pywrapper
 
 Окружение в котором протестирован код:
 1. Windows 10
@@ -44,7 +44,7 @@
 Функцию *test* вызвать в `examle.py`:
 ```
 import sys
-sys.path.append(r'path_to_dir\wrapper_python_under_C\build\lib\Release')
+sys.path.append(r'path_to_dir\wrapper_python_for_C\build\lib\Release')
 import pywrapper as pw
 import numpy as np
 
